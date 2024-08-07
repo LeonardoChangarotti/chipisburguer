@@ -3,19 +3,19 @@ const productos=[
         src: './foto/agu.jpeg',
         nombre: 'Arepa frita de Pernil',
         descripcion: 'Pernil, queso frito, repollo y salsas.',
-        precio: '4.000',
+        precio: '1x4.000c/u o 2x7.000',
       },
       {
         src: './foto/agu2.jpeg',
-        nombre: '2 Arepas fritas de Pernil',
-        descripcion: 'Pernil, queso frito, repollo y salsas.',
-        precio: '7.000',
+        nombre: 'Arepa Frita Pernil (Agüita de Sapo) ',
+        descripcion: 'Pernil y queso frito.',
+        precio: '1x3.500c/u o 2x6.000',
       },
       {
         src: './foto/bur.jpeg',
         nombre: 'Hamburguesa De La Calle',
         descripcion: 'Hamburguesa de 150gr, Vegetales (repollo o lechuga, tomate, cebolla), Papas hilo, Jamón ahumado, Queso laminado, Salsas (ketchup, mostaza, mayonesa, tártara)  incluye porcion de papas fritas.  (Puede cambiar la carne por pechuga de pollo a la plancha).',
-        precio: '1x 6.000   o  2x 10.000',
+        precio: '6.000',
       },
       {
         src: './foto/comp.jpeg',
@@ -36,8 +36,7 @@ for (let producto of productos){
           <h5 class="card-title">${producto.nombre}</h5>
           <p class="card-text">${producto.descripcion} </p>
           <div class="d-flex flex-column align-items-center">
-            <h5 class="card-title">${producto.precio}</h5>
-            <a href="./assets/datos.html" class="btn btn-warning fw-bold mt-2">Datos para Transferencia</a>
+            <a href="#" class="btn btn-warning fw-bold mt-2">${producto.precio}</a>
           </div>
         </div>
     </div>
