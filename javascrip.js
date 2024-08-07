@@ -14,7 +14,12 @@ const productos=[
       {
         src: './foto/bur.jpeg',
         nombre: 'Hamburguesa De La Calle',
-        descripcion: 'Hamburguesa de 150gr, Vegetales (repollo o lechuga, tomate, cebolla), Papas hilo, Jamón ahumado, Queso laminado, Salsas (ketchup, mostaza, mayonesa, tártara)  incluye porcion de papas fritas.  (Puede cambiar la carne por pechuga de pollo a la plancha).',
+        descripcion: 'Hamburguesa de 150gr, Vegetales (repollo o lechuga, tomate, cebolla), Papas hilo, Jamón ahumado, Queso laminado, Salsas (ketchup, mostaza, mayonesa, tártara).  Incluye porcion de papas fritas.  (Puede cambiar la carne por pechuga de pollo a la plancha).',
+        precio: '6.000',
+      },{
+        src: './foto/burguita.jpeg',
+        nombre: 'Hamburguesa Americana',
+        descripcion: 'Hamburguesa, queso cheddar, tocino y salsa de pimenton. Incluye porcion de papas fritas.',
         precio: '6.000',
       },
       {
