@@ -37,7 +37,7 @@ for (let producto of productos){
           <p class="card-text">${producto.descripcion} </p>
           <div class="d-flex flex-column align-items-center">
             <h5 class="card-title">${producto.precio}</h5>
-            <a href="/datos.html" class="btn btn-warning fw-bold mt-2">Datos para Transferencia</a>
+            <a href="./assets/datos.html" class="btn btn-warning fw-bold mt-2">Datos para Transferencia</a>
           </div>
         </div>
     </div>
