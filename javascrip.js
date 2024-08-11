@@ -12,6 +12,12 @@ const productos=[
         precio: '1x3.500c/u o 2x6.000',
       },
       {
+        src: './foto/papachedar.jpg',
+        nombre: 'Papas Cheddar',
+        descripcion: 'Papas fritas, Cheddar, tocino, cebollin.',
+        precio: '4.000',
+      },
+      {
         src: './foto/bur.jpeg',
         nombre: 'Hamburguesa De La Calle',
         descripcion: 'Hamburguesa de 150gr, Vegetales (repollo o lechuga, tomate, cebolla), Papas hilo, Jamón ahumado, Queso laminado, Salsas (ketchup, mostaza, mayonesa, tártara).  Incluye porcion de papas fritas.  (Puede cambiar la carne por pechuga de pollo a la plancha).',
