@@ -23,3 +23,14 @@ header, footer{
     font-style: normal;
   }
   
+  @keyframes blinkText {
+    0% { color: #343a40; } /* Color original del texto */
+    50% { color: white; }
+    100% { color: #343a40; }
+  }
+  
+  .blink {
+    animation: blinkText 1s infinite;
+  }
+  
+  

@@ -11,19 +11,14 @@ const productos=[
         descripcion: 'Pernil y queso frito.',
         precio: '1x3.500c/u o 2x6.000',
       },
-      {
-        src: './foto/papachedar.jpg',
-        nombre: 'Papas Cheddar',
-        descripcion: 'Papas fritas, Cheddar, tocino, cebollin.',
-        precio: '4.000',
-      },
+      
       {
         src: './foto/bur.jpeg',
         nombre: 'Hamburguesa De La Calle',
         descripcion: 'Hamburguesa de 150gr, Vegetales (repollo o lechuga, tomate, cebolla), Papas hilo, Jamón ahumado, Queso laminado, Salsas (ketchup, mostaza, mayonesa, tártara).  Incluye porcion de papas fritas.  (Puede cambiar la carne por pechuga de pollo a la plancha).',
         precio: '6.000',
       },{
-        src: './foto/burguita.jpeg',
+        src: './foto/americana.jpeg',
         nombre: 'Hamburguesa Americana',
         descripcion: 'Hamburguesa, queso cheddar, tocino y salsa de pimenton. Incluye porcion de papas fritas.',
         precio: '6.000',
@@ -33,7 +28,23 @@ const productos=[
         nombre: 'Perro Caliente Tradicional',
         descripcion:  'Vienesa, Vegetales  (repollo o lechuga, tomate cebolla), papas hilo,  Salsas (ketchup, mostaza, mayonesa, tártara) queso rallado.',
         precio: '2.000',
-      }
+      },
+      {
+        src: './foto/papacasa.jpeg',
+        nombre: 'Papas de la Casa',
+        descripcion: 'Papas fritas, Cheddar, tocino, Salsa de Pepinillo y Salsa Especial.',
+        precio: '5.000',
+      },{
+        src: './foto/papachedar.jpg',
+        nombre: 'Papas Cheddar',
+        descripcion: 'Papas fritas, Cheddar, tocino, cebollin.',
+        precio: '4.000',
+      },{
+        src: './foto/papasola.jpeg',
+        nombre: 'Papas Solas',
+        descripcion: 'Porcion de papas fritas crujientes y deliciosas.',
+        precio: '2.000',
+      },
     ];
 
 
