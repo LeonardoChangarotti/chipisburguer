@@ -44,6 +44,11 @@ const productos=[
         nombre: 'Papas Solas',
         descripcion: 'Porcion de papas fritas crujientes y deliciosas.',
         precio: '2.000',
+      },{
+        src: './foto/POSTRE.jpeg',
+        nombre: 'Postre de hojaldre',
+        descripcion: 'dos postres hojaldrados y rellenos con crema pastelera.',
+        precio: '3.000',
       },
     ];
 
